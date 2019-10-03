@@ -26,7 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cursorPos.X = 0;
 	cursorPos.Y = 0;
 
-	std::string table[2][2] = { {"SURNAME", "GROUP"}, {"Maximchikova", "6"} };
+	std::string table[5][2] = { {"__________________________", "_________________"}, {"SURNAME", "GROUP"}, {"__________________________", "_________________"}, {"Maximchikova", "6"}, {"______________________", "_________________"} };
 
 	for (int i = 0; i < sizeof(table) / sizeof(table[0]); i++)
 	{
